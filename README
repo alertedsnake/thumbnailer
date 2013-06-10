@@ -1,0 +1,10 @@
+This little program is a basic image thumbnailer - it simply generates
+thumbnails for the images in a given directory.
+
+Only slightly nicer than doing something like:
+
+for i in *jpg ; do convert -geometry 100x $i ${i/.jpg/.thumb.jpg} ; done
+
+
+At one point, this also generated some HTML along with the image, but I don't
+currently have a use for that.
